@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+h1{
+  margin:20px 10px 20px 10px;
+}
+
+.container{
+  border: 5px solid rgba(0, 0, 0, 0.486);
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  margin: 20px 10px 20px 10px;
+  border-radius: 5px;
+  }
+
+  .container section{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #59a1af;
+    height: auto;
+    display: flex;
+    flex: 1 25rem;  /*flex-grow and flex-basis*/
+
+  }
+
+
+  /*Grid*/
+
+  
+/*
+  /*Grid*/
+
+  .grid {
+   border: 5px solid rgba(0, 0, 0, 0.486);
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+   margin: 20px 10px 20px 10px;
+   border-radius: 5px;
+
+  }
+
+.grid section{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #59a1af;
+    height: auto;
