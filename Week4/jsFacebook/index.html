@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+​
+
+<body>
+	<input id="message" type="text" placeholder="What are you thinking today? " />
+    <input id="enterMessage" type="button" value="Enter Message " />
+    <div id="container">
+​
+    </div>
+    <script>
+        //Get the button object querying by Id
+        let button = document.getElementById("enterMessage");
+
+        //Global variable for message (we will concatenate further messages)
+        let message = "";
+
+        //get out DIV container to insert our messages there
+        let container = document.getElementById("container");
+
+        //Assign the onlic to the button, when clicked add our message in our DIV object
+        button.onclick = function (event) {
+            let currentdate = new Date();
+            let datetime = currentdate.getDate() + "/"
+                + (currentdate.getMonth() + 1) + "/"
+                + currentdate.getFullYear() + " @ "
+                + currentdate.getHours() + ":"
+                + currentdate.getMinutes() + ":"
+                + currentdate.getSeconds();
+            //This will add the latest message to the top. (message variable concatenates at the end!!)
+            message = "<article><h1>" + document.getElementById("message").value + "</h1><p>Ömer - " + datetime + "</p></article>" + message;
+            console.log(message);
+            container.innerHTML = message;
+            document.getElementById("message").value = "";
+            document.getElementById("message").focus();
+        }
+    </script>
+</body>
+​
+</html>

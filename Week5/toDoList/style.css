@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+}
+
+.login{
+  padding: 30px;
+  border: 3px solid brown;
+  width: 250px;
+  height: auto;
+  background-color: rgb(228, 218, 218);
+  position: absolute;
+  top: 10%;
+  right: 40%;
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.459);
+   border-radius: 10px;
+
+}
+h2{
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+label{
+  font-size: 20px;
+  text-align: center;
+  margin: 27%;
+  font-family: 'Lobster', cursive;
+}
+#passw{
+  margin: 20px auto;
+   border-radius: 5px;
+}
+
+#mainList{
+ padding: 30px;
+  border: 3px solid brown;
+  width: 250px;
+  height: auto;
+  background-color: rgb(228, 218, 218);
+  position: absolute;
+  top: 10%;
+  right: 40%;
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.459);
+  border-radius: 10px;
+}
+
+#addBtn{
+  background-color: rgba(165, 42, 42, 0.733);
+ margin: 10px auto auto auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 70%;
+ color: white;
+}
+#addBtn:hover{
+   box-shadow: 0 5px #666;
+  transform: translateY(1px);
+  transition: 300ms;
+}
+
+#list li{
+  font-family: 'Lobster', cursive;
+}
+#addList{
+   border-radius: 5px;
+}
