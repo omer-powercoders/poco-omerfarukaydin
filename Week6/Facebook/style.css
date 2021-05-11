@@ -1,0 +1,113 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: rgb(18, 77, 71);
+}
+
+.login{
+  width: 40%;
+  height: auto;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 2px solid rgb(27, 148, 136);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.322);
+  border-radius: 10px;
+  background-color: rgb(27, 148, 136);
+
+}
+
+#account{
+  background-color: green;
+  border-radius: 20px;
+transition: 400ms;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+}
+
+#account:hover{
+  transform: scale(1.05);
+}
+
+.registration{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: auto;
+  text-align: center;
+  border: 2px solid rgb(27, 148, 136);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.322);
+  border-radius: 10px;
+  background-color: rgb(27, 148, 136);
+   padding: 20px;
+}
+
+#userName, #passw, #message, #rpsw, #psw, #email, #uname, #sname, #fname{
+  background-color: rgba(56, 32, 32, 0.479);
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+}
+.registerbtn{
+   background-color: green;
+  border-radius: 20px;
+transition: 400ms;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+}
+.registerbtn:hover{
+  transform: scale(1.05);
+  }
+
+  .homepage{
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: auto;
+  text-align: center;
+  border: 2px solid rgb(27, 148, 136);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.322);
+  border-radius: 10px;
+  background-color: rgb(27, 148, 136);
+   padding: 20px;
+  }
+
+  #container{
+    width: 30%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px auto;
+
+  }
+
+ 
+
+  #enterMessage{
+    background-color: rgb(212, 235, 212);
+  border-radius: 20px;
+transition: 400ms;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  }
+
+#enterMessage:hover{
+  transform: scale(1.05);
+}
+  
